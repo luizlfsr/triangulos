@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+html,
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.strong-highlight {
+  color: #ff6961;
+}
+
+.main-text {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.element-list {
+  margin: 10px 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.app_home {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "main aside"
+    "footer footer";
+}
+
+.main-header {
+  grid-area: header;
+  background-color: #242424;
+  border-bottom: 2px solid #171717;
+  padding: 16px;
+}
+
+.home-main {
+  grid-area: main;
+  min-height: 75vh;
+  padding: 20px;
+}
+
+.main-aside {
+  grid-area: aside;
+  border-left: 2px solid #171717;
+  padding: 20px 10px;
+  max-width: 15vw;
+}
+
+.main-footer {
+  grid-area: footer;
+  border-top: 2px solid #171717;
+  background-color: #242424;
+  color: #fff;
+  padding: 40px;
+}
+.main-footer span {
+  margin-right: 10px;
+  color: #ff6961;
+}
+
+.section {
+  margin: 20px 0;
+}
+
+.card {
+  margin: 10px auto;
+  padding: 12px;
+  border: 2px solid #171717;
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  width: 100%;
+  font-size: 16px;
+  margin: 10px 0;
+  align-self: center;
+  color: #fff;
+  background-color: #242424;
+  border: none;
+  border-radius: 5px;
+  padding: 6px;
+  transition: .3s;
+}
+.button:hover {
+  color: #ff6961;
+}
+
+/* calculo section */
+
+.calculo_main {
+  min-height: 75vh;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculo-container {
+  padding: 40px;
+  width: min-content;
+  margin: 0 auto;
+  background-color: #444;
+  border: 2px solid #171717;
+}
+
+.calculo_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin: 10px 0;
+  width: 300px;
+  background-color: #fff;
+  border: 2px solid #171717;
+  color: #242424;
+  padding: 12px;
+  font-size: 18px;
+}
+.input::placeholder {
+  color: #555;
+}
+.output-input {
+  width: min-content;
+  font-size: 18px;
+  color: #fff ;
+  background-color: #444;
+  border: none;
+  outline: none;
+}
+
+

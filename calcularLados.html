@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Triângulos</title>
+    <link rel="stylesheet" href="./style/styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="main-header">
+        <h1>Triângulos</h1>
+      </header>
+      <main class="calculo_main">
+        <div class="calculo-container">
+          <form class="calculo_form">
+            <h2 class="strong-highlight">calcular triangulo</h2>
+            <input id="input1" class="input" type="number" placeholder="primeiro lado do triângulo" />
+            <input id="input2" class="input" type="number" placeholder="segundo lado do triângulo" />
+            <input id="input3" class="input" type="number" placeholder="terceiro lado do triângulo" />
+            <input id="inputbutton" class="button" type="button" value="Calcular" onclick="VerificarTriangulo()"/>
+            <h3 class="flex">Resultado:&nbsp;<input type="text" id="output" class="output-input" value="" readonly/></h3>
+          </form>
+        </div>
+      </main>
+      <footer class="main-footer">
+        <h3><span>Triângulos</span>&copy;2023</h3>
+      </footer>
+    </div>
+
+    <script src="./js/scripts.js" defer></script>
+  </body>
+</html>
